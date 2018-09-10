@@ -187,8 +187,4 @@ The specific situation is determined by the circumstances. The project is mainly
 &emsp;&emsp;The editor should be real-time, which means the display window should show the latest results within 2 seconds after the user updates the Markdown code in the input window.  
 &emsp;&emsp;Read and write files should be completed in 2 seconds, and file saving should be completed in 1 second.  
   
-# 5.Use case chart and flow chart #  
-### &emsp;5.1&ensp;use case chart ###  
-![USECASE CHART](Chart_Usecase.png)
-### &emsp;5.2&ensp;flow chart ###  
-![FLOW CHART](Chart_Flow.png)
+
