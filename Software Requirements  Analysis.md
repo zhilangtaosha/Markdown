@@ -3,6 +3,7 @@
 &emsp;&emsp;Create a web-based Markdown editor based on browser and html5. The user can use a simple markup syntax to make
 the original plain text content have a certain format. For bloggers, wikis, etc., the grammar is simple and easy
 to learn. It greatly facilitates the layout of documents, papers and other texts, and enriches the display effect.  
+  
 # 2.Project Introduction #  
 ### &emsp;2.1&ensp;Purpose of Project ###  
 &emsp;&emsp;**Service target**: The project is dedicated to creating a real-time display of the markdown editor, providing users with a 
@@ -25,6 +26,7 @@ novelists, document programmers, etc.
 &emsp;&emsp;In terms of project profitability, advertisements can be added in the sidebar of the web page and other blank spaces. 
 The specific situation is determined by the circumstances. The project is mainly convenient for the majority of users, not profitable.  
 &emsp;&emsp;Combining the above three aspects, the conclusion that the project is feasible.  
+  
 # 3.Module function and use case #  
 ### &emsp;3.1&ensp;editing module ###  
 #### &emsp;&emsp;3.1.1&ensp;***Edit a Markdown code without shortcut key*** ####  
@@ -173,6 +175,7 @@ The specific situation is determined by the circumstances. The project is mainly
 |2||Asks if the current page is closed without saving|
 |3|When the.md file name conflicts with the existing file, ask if it is overwritten||
 |4||When the user selects "yes", the overlay is saved; When the user selects cancel, give the user the opportunity to modify the file name|  
+  
 # 4.Non-functional requirements #  
 ### &emsp;4.1&ensp;Operation Environment ###  
 &emsp;&emsp;This system should be able to run in Mac and Windows systems.  
@@ -183,8 +186,9 @@ The specific situation is determined by the circumstances. The project is mainly
 &emsp;&emsp;When using PC-side browser to access the web site, ignoring the impact of local machine performance, each page should be opened in less than 2 seconds.  
 &emsp;&emsp;The editor should be real-time, which means the display window should show the latest results within 2 seconds after the user updates the Markdown code in the input window.  
 &emsp;&emsp;Read and write files should be completed in 2 seconds, and file saving should be completed in 1 second.  
+  
 # 5.Use case chart and flow chart #  
 ### &emsp;5.1&ensp;use case chart ###  
-![USECASE CHART](usecase.png)
+![USECASE CHART](Chart_Usecase.png)
 ### &emsp;5.2&ensp;flow chart ###  
-![FLOW CHART](flow.png)
+![FLOW CHART](Chart_Flow.png)
