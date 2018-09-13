@@ -14,6 +14,6 @@
 2.Learn the grammar of Markdown.      
 3.Adapt to the current popular Markdown text compiler.  
 4.Group discussion.  
-5.Participated in the design of the interface of our project.
+5.Participated in the design of the interface of our project.  
 6.Finsh the test plan of the Overall Design Document.  
 7.Finsh the IPO Chart and the Hierarchy Chart of the Overall Design Document. 
