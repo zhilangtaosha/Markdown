@@ -6,7 +6,7 @@
 4.Adapt to the current popular Markdown text compiler.  
 5.Group discussion.  
 6.Finsh the usecases of display and newly build. ([Link](https://github.com/zangyifan0221151610/Markdown/blob/master/Software%20Requirements%20%20Analysis.md))  
-7.Finsh the file of Non-functional requirements. 
+7.Finsh the file of Non-functional requirements. ([Link](https://github.com/zangyifan0221151610/Markdown/blob/master/Software%20Requirements%20%20Analysis.md)) 
 
 # Week 2
 ## 2018.09.11——09.13
