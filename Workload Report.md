@@ -5,7 +5,7 @@
 3.Adapt to Github and create course related repository and files.  
 4.Adapt to the current popular Markdown text compiler.  
 5.Group discussion.  
-6.Finsh the usecases of display and newly build.  
+6.Finsh the usecases of display and newly build.(链接：[enter link description here](https://github.com/zangyifan0221151610/Markdown/blob/master/Software%20Requirements%20%20Analysis.md))  
 7.Finsh the file of Non-functional requirements. 
 
 # Week 2
