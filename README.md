@@ -12,3 +12,5 @@ The overall design of our project is displayed in **"3.Overall Design Document.m
 The process of analysis in grammar is displayed by image in **"4.Grammatical Analysis Process Chart.png"**.  
 
 The specific design of our project can be seen in **"5.Specific Design Document.md"**.  
+
+The specific design of the **STOCK Project** and the **NUTRITION Project** can be seen in the **附加文件**.
