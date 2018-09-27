@@ -1,6 +1,8 @@
 # Markdown
 ## Repository for the Software Engineering Course </br>
 
+The development plan of the Markdown system is talked in **"0.Project Plan.md"**.  
+
 The detail information like my workload is shown in **"1.Workload Report.md"**.  
   
 The requirements analysis of our project can be seen in **"2.Software Requirements Analysis.md"**.  
