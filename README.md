@@ -13,4 +13,4 @@ The process of analysis in grammar is displayed by image in **"4.Grammatical Ana
 
 The specific design of our project can be seen in **"5.Specific Design Document.md"**.  
 
-The specific design of the **STOCK Project** and the **NUTRITION Project** can be seen in the **附加文件**.
+The specific design of the **STOCK Project** and the **NUTRITION Project** can be seen in the **"附加文件"**.
