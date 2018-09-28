@@ -1,0 +1,280 @@
+
+# 用户手册 #
+## 1.前言 ##
+
+
+&emsp;欢迎您使用Markdown文本编辑器。
+
+&emsp;相信您以前经常在Github、博客园或是其他平台中看到.md格式的文件，这其实就是Markdown编辑系统产生的。使用Markdown编写的web界面将会特别规整漂亮，而且Markdown语言简洁、美观，非常推荐大家学习和使用。
+
+&emsp;希望本Markdown编辑系统能让你对Markdown有最基本的了解和认识，希望你可以使用它制作出精美整洁的文件界面。
+
+## 2.简介 ##
+
+
+&emsp;Markdown是一种用来文本处理的轻量级「标记语言」，它用简洁的语法代替排版，而无需像Microsoft的Word一样花费大量的时间进行排版、字体设置。它使我们专心于码字，用「标记」语法来代替常见的排版格式。Markdown不止可以处理文本，使得文字更美观，还支持图像、表格等的插入，大大方便了我们的写作。例如此文从内容到格式，甚至插图，一个键盘就可以完全搞定，无需鼠标！
+
+&emsp;目前来看，支持Markdown语法的编辑器有很多，包括很多网站(例如简书、Github)也支持了Markdown的文字录入。Markdown 从写作到完成，导出格式随心所欲，你可以导出HTML格式的文件用来网站发布,也可以十分方便的导出PDF格式。
+
+## 3.Markdown特点 ##
+
+
+&emsp;Markdown可以使你专注于你的文字内容而不是排版样式；它可以轻松的导出HTML、PDF或是本身的.md文件；它是纯文本内容，兼容所有的文本编辑器与字处理软件；Markdown可读、直观，是适合所有人的写作语言。
+
+
+## 4.Markdown文法##
+
+>>**Markdown文法**：
+<table>
+<th>类别</th><th>子类别</th><th>Markdown文法</th><th>HTML文法</th>
+    <tr><td rowspan="6">标题</td><td>一级标题</td><td># 标题 #</td><td>&#60;h1&#62;标题&#60;/h1&#62;</td></tr>
+    <tr><td>二级标题</td><td>## 标题 ##</td><td>&#60;h2&#62;标题&#60;/h2&#62;</td></tr>
+    <tr><td>三级标题</td><td>### 标题 ###</td><td>&#60;h3&#62;标题&#60;/h3&#62;</td></tr>
+    <tr><td>四级标题</td><td>#### 标题 ####</td><td>&#60;h4&#62;标题&#60;/h4&#62;</td></tr>
+    <tr><td>五级标题</td><td>##### 标题 #####</td><td>&#60;h5&#62;标题&#60;/h5&#62;</td></tr>
+    <tr><td>六级标题</td><td>###### 标题 ######</td><td>&#60;h6&#62;标题&#60;/h6&#62;</td></tr>
+    <tr><td rowspan="4">文本字体</td><td>斜体</td><td>*文本*</td><td>&#60;i&#62;文本&#60;/i&#62;</br>&#60;em&#62;文本&#60;/em&#62;</td></tr>
+    <tr><td>加粗</td><td>**文本**</td><td>&#60;b&#62;文本&#60;/b&#62;</br>&#60;strong&#62;文本&#60;/strong&#62;</td></tr>
+    <tr><td>斜体加粗</td><td>***文本***</td><td>综合使用以上<i>斜体</i>和<b>加粗</b>标签</td></tr>
+    <tr><td>删除线</td><td>~~文本~~</td><td>&#60;s&#62;文本&#60;/s&#62;</td></tr>
+    <tr><td colspan="2">引用</td><td>&#62;及多个&#62;</td><td>&#60;blockquote&#62;引用内容&#60;/blockquote&#62;</br>(可以嵌套)</td></tr>
+    <tr><td colspan="2">分割线</td><td>三个及三个以上 * 或 -</td><td>&#60;HR&#62;</br>(具体样式可用CSS自行设置)</td></tr>
+    <tr><td colspan="2">图片</td><td>![图片名字](图片链接)</td><td>&#60;img /&#62;(图片默认原始大小，没有位置样式)</td></tr>
+    <tr><td colspan="2">超链接</td><td>[链接名字](链接地址)</td><td>&#60;a href="链接地址"&#62;链接名字&#60;/a&#62;</td></tr>
+    <tr><td rowspan="2">列表</td><td>无序列表</td><td>- * +符号中任意一个`_`文本</br>(`_`表示一个空格)</td><td>&#60;ul&#62;</br>&#60;li&#62;&#60;/li&#62;</br>……</br>&#60;/ul&#62;</td></tr>
+    <tr><td>有序列表</td><td>1.</br>2.</br>……</td><td>&#60;ol&#62;</br>&#60;li&#62;&#60;/li&#62;</br>……</br>&#60;/ol&#62;</td></tr>
+    <tr><td colspan="2">表格</td><td>| header1 | header2 | header3 |</br>|:----|:----:|----:|</br>|content1|content2|content3|</td><td>&#60;table&#62;</br>&#60;th&#62;表头&#60;/th&#62;</br>&#60;tr&#62;&#60;td&#62;&#60;/td&#62;&#60;/tr&#62;</br>……</br>&#60;/table&#62;</td></tr>
+    <tr><td rowspan="2">代码块</td><td>单行代码</td><td>`文本`</td><td>&#60;code&#62;文本&#60;/code&#62;</td></tr>
+    <tr><td>多行代码</td><td>```</br>代码块内容</br>```</td><td><B>难题一</B></td></tr>
+    <tr><td colspan="2">HTML语言内嵌的识别</td><td>HTML语言的标签及内容</td><td>识别&#60;和&#62;的标签标志及标签内容</td></tr>
+    <tr><td colspan="2">数学公式</td><td colspan="2"><B>难题二</B></td></tr>
+    <tr><td colspan="2">流程图</td><td colspan="2"><B>难题三</B></td></tr>
+</table>
+
+
+
+## 5.使用说明##
+
+&emsp;本Markdown文本编辑器界面如下图所示。左侧为Markdown代码输入栏，右侧为编译结果显示栏。
+
+![USECASE CHART](http://thyrsi.com/t6/377/1538068517x-1566688371.png)
+
+&emsp;您可以参照上面“Markdown文法”提到的内容在左侧栏中输入您的文本以及相应的标记文法，之后您的文本将实时按照对应格式在右侧显示栏中显示。您不需要点击任何按钮或使用任何快捷键完成上述编译工作，以上提到的显示是实时进行的，也就是说，您每在左侧输入栏中输入一个字符，右侧的显示栏均会随之发生变化。这样您可以随时对您的文本和格式进行预览，方便您随时改动和调整您在左侧的输入。
+
+## 6.范例 ##
+### 输入:
+
+![USECASE CHART](http://thyrsi.com/t6/377/1538069350x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069419x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069476x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069524x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069565x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069607x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069645x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069681x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069734x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069761x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069783x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069823x1822611263.jpg)
+![USECASE CHART](http://thyrsi.com/t6/377/1538069850x1822611263.jpg)
+## 输出 ##
+
+
+## 1.Introduction ##  
+### &emsp;1.1&ensp;Purpose ###  
+&emsp;&emsp;Create a web-based Markdown editor based on browser and html5. The user can use a simple markup syntax to make
+the original plain text content have a certain format. For bloggers, wikis, etc., the grammar is simple and easy
+to learn. It greatly facilitates the layout of documents, papers and other texts, and enriches the display effect.  
+## 2.Project Introduction ##  
+### &emsp;2.1&ensp;Purpose of Project ###  
+&emsp;&emsp;**Service target**: The project is dedicated to creating a real-time display of the markdown editor, providing users with a 
+simple and convenient writing and editing environment. The content input by the user is interactively displayed in real time, 
+which is convenient for the user to edit. You can read the already written txt file for editing, or you can publish the edited 
+text to html or pdf format. At the same time, it provides a simple and friendly interface to bring a good user experience.  
+&emsp;&emsp;**Features target**: The project is dedicated to the user's purpose of editing, reading and publishing markdown text. 
+The main functions are editing, display, and reading/storing functions.  
+### &emsp;2.2&ensp;Project applicable user ###  
+&emsp;&emsp;The project is suitable for a wide range of bloggers and wiki authors, and users can easily modify and update them. 
+For scholars who are active in universities and enterprises, markdown can not only save the trouble of typesetting, but also 
+make the papers and results more complete.  
+### &emsp;2.3&ensp;Feasibility Analysis ###
+&emsp;&emsp;Technically, the project's development software conditions are browsers and html5, which are now very common and easy 
+to implement. The logo text language itself has no difficult syntax. The function of the editor is to convert the written markdown 
+text into html language and display it on the browser.  
+&emsp;&emsp;The project is extremely versatile. As a tool, markdown is mainly used to improve efficiency and writing experience. 
+It is suitable for people who often work in code words, text typesetting, etc., for example: bloggers, website editors, publishers, 
+novelists, document programmers, etc.  
+&emsp;&emsp;In terms of project profitability, advertisements can be added in the sidebar of the web page and other blank spaces. 
+The specific situation is determined by the circumstances. The project is mainly convenient for the majority of users, not profitable.  
+&emsp;&emsp;Combining the above three aspects, the conclusion that the project is feasible.  
+## 3.Module function and use case ##  
+### &emsp;3.1&ensp;editing module ###  
+#### &emsp;&emsp;3.1.1&ensp;***Edit a Markdown code without shortcut key*** ####  
+|Use case|User wants to edit a Markdown code in the document that has been opened|
+|:----:|:----:|
+|version|1|
+|created(date)|2018.09.06|
+|Author|Yuxuan Liu|
+|Goals|Editing Markdown code to get a .pdf/.md/.hml file.|
+|Summary|User edits Markdown code in a read-write box which displays the latest version of the code.|
+|Actors|User|
+|Trigger|When user clicks in the editing box, he can start to change the content in the box.|
+|Precondition|There exists a read and write document and it has been opened.|
+|Frequency|Anytime user wants to edit the Markdown code.|
+|Postcondition|The Markdown code has been changed and compilation result can been seen in another box.|  
+
+|Basic Flow|Actor|System|
+|:----:|:----:|:----:|
+||Clicks in the editing box||
+|||A cursor appears on the position where user click in the box. |
+||Edit the content in the box.||
+|||Both content in editing box and compilation result change accordingly</br>and simultaneously.|  
+#### &emsp;&emsp;3.1.2&ensp;***Edit a Markdown code with shortcut key*** ####  
+|Use case|User wants to use shortcut key to edit a Markdown code in the document that has been opened|
+|:----:|:----:|
+|version|1|
+|created(date)|2018.09.06|
+|Author|Yuxuan Liu|
+|Goals|Editing Markdown code to get a .pdf/.md/.hml file.|
+|Summary|User uses shortcut key to edit Markdown code in a read-write box which displays the latest version of the code.|
+|Actors|User|
+|Trigger|When user clicks in the editing box, he can start to change the content in the box.|
+|Precondition|There exists a read and write document and it has been opened.|
+|Frequency|Anytime user wants to edit the Markdown code.|
+|Postcondition|The Markdown code has been changed and compilation result can been seen in another box.|  
+
+|Basic Flow|Actor|System|
+|:----:|:----:|:----:|
+|1|Clicks in the editing box||
+|2||A cursor appears on the position where user click in the box. |
+|3|Uses correct shortcut key combination to edit the content in the box.||
+|4||Both content in editing box and compilation result change accordingly</br>and simultaneously.|  
+
+|Alternative Flow|Actor|System|
+|:----:|:----:|:----:|
+|1|Uses undefined shortcut key combination to edit the content in the box.||
+|2||Content in the box will not change|  
+### &emsp;3.2&ensp;display module ###  
+#### &emsp;&emsp;3.2.1&ensp;***Display the Markdown result*** ####  
+|Use case|Display the Markdown result|
+|:----:|:----:|
+|version|1|
+|created(date)|2018.09.06|
+|Author|Yifan Zang|
+|Goals|To show the compilation result of the Markdown code in the display window.|
+|Summary|Display the result of the Markdown code in the display window in real time when users are coding in the input window.|
+|Actors|User|
+|Trigger|User types in the input window. (Real time)|
+|Precondition|The input window is not blank   OR</br>There are changes in the input window.|
+|Frequency|Anytime when user makes changes in the input window. (Real time)|
+|Postcondition|A new vision of the compilation result is showed in the display window.|  
+
+|Basic Flow|Actor|System|
+|:----:|:----:|:----:|
+|1|Empty the input window.||
+|2||Show nothing in the display window.|
+|3|Make change in the input window.||
+|4||Recompile the Markdown code and reshow the new result in the display window.|  
+
+|Alternative Flow|Actor|System|
+|:----:|:----:|:----:|
+|1|The current input is invalid for Markdown grammar.||
+|2||Show the input directly in the display window without compilation.|  
+### &emsp;3.3&ensp;file system module ###  
+#### &emsp;&emsp;3.3.1&ensp;***Newly build a new file*** ####  
+|Use case|Display the Markdown result|
+|:----:|:----:|
+|version|1|
+|created(date)|2018.09.06|
+|Author|Yifan Zang|
+|Goals|To build a brand new file with a blank input window and a blank display window.|
+|Summary|Users sometimes have the need to compile two or more than two files at the same time, so it is needed to prepare a new file to compile.|
+|Actors|User|
+|Trigger|User clicks the ‘New File’ button.|
+|Precondition|User open our website..|
+|Frequency|Anytime when user clicks the ‘New File’ button.|
+|Postcondition|A brand new file with a blank input window and a blank display window are showed in the website.|  
+
+|Basic Flow|Actor|System|
+|:----:|:----:|:----:|
+|1|Clicks the ‘New File’ button.||
+|2||A brand new file with a blank input window and a blank display window are showed in the website.|  
+#### &emsp;&emsp;3.3.2&ensp;***load a Markdown file*** ####  
+|Use case|load a Markdown file|
+|:----:|:----:|
+|version|1|
+|created(date)|2018.09.06|
+|Author|Bingfeng Han|
+|Goals|Opne an existing file.|
+|Summary|User clicks “open file” button to open a .md file and edit it.|
+|Actors|User|
+|Trigger|Click the 'load' button.|
+|Precondition|User enters the editor page.|
+|Frequency|Anytime user wants to open a .md file.|
+|Postcondition|A.md file is opened and in an editable state.|  
+
+|Basic Flow|Actor|System|
+|:----:|:----:|:----:|
+|1|Click “open file” button||
+|2||Pops out a window that display the file list|
+|3|Choose one of the files and click “open” button||
+|4||The.md file is opened and in a user editable state|
+|5|Click "cancel" button||
+|6||Unopen the file and return to the edit screen|
+
+|Alternative Flow|Actor|System|
+|:----:|:----:|:----:|
+|1|When a new file is opened, the current edit document is not saved||
+|2||Ask if you open a new .md file without saving it|  
+#### &emsp;&emsp;3.3.3&ensp;***save the Markdown file*** ####  
+|Use case|save the Markdown file|
+|:----:|:----:|
+|version|1|
+|created(date)|2018.09.06|
+|Author|Bingfeng Han|
+|Goals|Save a currently edited.md, .pdf or .htm file|
+|Summary|User clicks the “save” button to save a.md file to the specified address|
+|Actors|User|
+|Trigger|User clicks the “save” button|
+|Precondition|When user opens or creates a new text on the editor page|
+|Frequency|Anytime the user edits a file|
+|Postcondition|The.md file is saved locally and the user can continue editing the current.md file|  
+
+|Basic Flow|Actor|System|
+|:----:|:----:|:----:|
+|1|Click the "save file" button||
+|2||The system displays the save address selection window, and the user selects to save the current.md file|
+|3|Click "save" button||
+|4||The.md file is saved locally and the current text is in a user-editable state|
+|5|Click "cancel" button||
+|6||The system unsaves the current text and returns to the editable state of the document|
+
+|Alternative Flow|Actor|System|
+|:----:|:----:|:----:|
+|1|When the current page is closed, the current edit document is not saved||
+|2||Asks if the current page is closed without saving|
+|3|When the.md file name conflicts with the existing file, ask if it is overwritten||
+|4||When the user selects "yes", the overlay is saved; When the user selects cancel, give the user the opportunity to modify the file name|  
+## 4.Non-functional requirements ##  
+### &emsp;4.1&ensp;Operation Environment ###  
+&emsp;&emsp;This system should be able to run in Mac and Windows systems.  
+&emsp;&emsp;This system is a Markdown editor which supports multi-platform web pages for html5. Most of the user's devices are PC, mobile phone or tablet devices, so our system should be applied to Mac and Windows, which have high popularity and usage. Besides there should be no barriers and functional differences between them, so they can interact across platforms and systems.  
+&emsp;&emsp;As Windows system is the most popular among all user groups, and it has fewer obstacles to utilize, so developers are more likely to analyze and test all aspects in this system to improve design and requirements. In this case, we started with Windows in the early stage of design and development of the Markdown editor platform for web page version.   
+&emsp;&emsp;After the system is well designed and developed in Windows system, we will start the follow-up work of other platforms.  
+### &emsp;4.2&ensp;Performance Requirements ###  
+&emsp;&emsp;When using PC-side browser to access the web site, ignoring the impact of local machine performance, each page should be opened in less than 2 seconds.  
+&emsp;&emsp;The editor should be real-time, which means the display window should show the latest results within 2 seconds after the user updates the Markdown code in the input window.  
+&emsp;&emsp;Read and write files should be completed in 2 seconds, and file saving should be completed in 1 second.  
+  
+  
+  
+  
+
+&emsp;看完这个示例，准备好开始您的Markdown之旅了吗？千里之行，始于足下。希望我们的Markdown文本编辑器能给您带来良好的体验，如果您发现了编辑器的问题，或是对我们的编辑器有不满，欢迎您与我们联系，联系方式：[zangyf0915@mails.jlu.edu.cn](mailto:zangyf0915@mails.jlu.edu.cn)。
+
+&emsp;感谢您的使用！
+
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Markdown文本编辑器团队
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2018年9月25日
